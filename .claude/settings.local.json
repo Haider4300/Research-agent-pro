@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python research-agent-hitl.py:*)"
+    ]
+  }
+}
