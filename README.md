@@ -10,7 +10,7 @@
 
 The Research AI Agent is a conversational AI assistant that helps you answer questions using four different tools: **DuckDuckGo Web Search**, **Wikipedia**, **arXiv academic papers**, and a **datetime tool**. The unique feature of this agent is the **human-in-the-loop** mechanism — before the agent uses any tool, it asks for your permission. You type `yes` or `no`, and only after your approval does the tool execute. This gives you complete control and transparency over what the agent does.
 
-The agent runs **entirely on your local machine** using **Ollama** and open-source LLMs. Your data never leaves your computer. The code is built with **LangChain**, **LangGraph**, and is designed to be easy to understand and extend.
+The agent runs **entirely on your local machine** using **Ollama** and open-source LLMs. Your data never leaves your computer. The code is built with **LangChain**, **LangGraph** and is designed to be easy to understand and extend.
 
 ---
 
@@ -39,7 +39,7 @@ Agent requests tool call (shows you the tool name and arguments)
 ↓
 You approve or reject
 ↓ (approve)
-Tool executes and returns result
+Tool executes and returns the result
 ↓
 Agent generates final answer
 
